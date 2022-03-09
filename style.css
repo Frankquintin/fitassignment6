@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+
+ * {
+     margin:0;
+	 padding:0;
+      font-size:104%;
+      line-height:28px;
+    }
+    body {
+      font-family: 'Raleway', sans-serif;
+    }
+    section {
+      text-align: center;
+      padding-bottom: 20px;
+      padding-top: 20px;
+      display: flex;
+      justify-content:center;
+
+    }
+
+    .details {  text-align: center;
+                width:
+    }
+
+    section p:nth-child(1)
+    {
+      max-width:800px;
+      font-style: italic;
+      align-content: center;
+      justify-content: center;
+    }
+
+    main img {padding-right:40px;}
+
+
+
+div p {background: rgb(128,171,127);
+      background: linear-gradient(180deg, rgba(128,171,127,.15) 46%, rgba(255,255,255,0) 100%, rgba(0,212,255,.15) 100%);
+      }
+
+    h1 {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      font-size:54px;
+      text-align: center;
+      font-kerning: auto;
+      font-family: 'Srisakdi', cursive;
+
+    }
+    h2 {
+      padding-top: 20px;
+      font-size:48px;
+      text-align: center;
+      font-family: 'Srisakdi', cursive;
+
+
+
+    }
+    main h2 {
+      text-align: center;
+      padding-left:20px;
+      padding-top:30px;
+      }
+
+    h3 {
+
+      font-size: 24px;
+      font-family: 'Srisakdi', cursive;
+      text-align: center;
+      color:#800000;
+      width: 250px;
+      padding-top:5px;
+      padding-bottom:10px
+    }
+
+
+    p {
+
+      margin:1px ;
+      align-items: left;
+      align-items: top;
+    }
+
+    main {
+      max-width:960px;
+      margin-left:auto;
+      margin-right:auto;
+      display: flex;
+      padding-bottom: 50px
+
+    }
+    main p {
+
+}
+
+    #hero {
+      height:400px;
+      background-image:url(images/bkg.jpg);
+      background-size:cover;
+    }
+.lunchbanner {
+  background-image:url(images/banner.jpg);
+  background-size:cover;
+  height:300px;
+
+}
+.dessertbanner {
+  background-image:url(images/banner2.jpg);
+  background-size:cover;
+  height:300px;
+  background-size:cover;
+  background-position:center;
+
+}
+footer {
+  background-image:url(images/footer.jpg);
+  height:300px;
+  background-size:cover;
+  background-position: bottom;
+  padding:15px;
+  text-align: center;
+  color:white;
+}
+/* ADD CSS BELOW */
+
+
+nav{
+}
+
+nav ul {
+	list-style-type:none;
+  display:flex;
+  justify-content:center;
+
+
+}
+nav a {
+	text-decoration:none;
+	color:green;
+	font-size:30px;
+	padding-top:20px;
+	padding-bottom:20px;
+	display:block;
+	padding-left:50px;
+	padding-right:50px;
+}
+nav a:hover {
+	background-color:green;
+	color:white;
+	padding-left:50px;
+	padding-right:50px;
+}
+
+
+section div {
+	width:250px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
